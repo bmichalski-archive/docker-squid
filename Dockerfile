@@ -16,5 +16,4 @@ WORKDIR /root
 
 EXPOSE 3128:3128
 
-CMD \
-  bash -c "/root/on-startup.sh && bash"
+CMD bash -c "/root/on-startup.sh && bash"
